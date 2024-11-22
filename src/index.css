@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00000080;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 65dvh;
+  width: 90%;
+  margin: 10% auto 0%;
+  font-family: 'Times New Roman', Times, serif;
+}
+.hero_title {
+  letter-spacing: 3px;
+  line-height: 80px;
+  font-size: 5rem;
+  width: 90%;
+  max-width: 800px;
+  font-weight: 600;
+}
+.hero_cont {
+  /* line-height: 80px; */
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-top: 30px;
+  width: 90%;
+  max-width: 800px;
+}
+
+.btn{
+  background-color: white;
+  padding: 16px 30px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+
+
+.game {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  /* margin: 10% auto 0%; */
+  padding-bottom: 30px;
+  font-family: sans-serif;
+}
+.game_title {
+  letter-spacing: 3px;
+  line-height: 80px;
+  font-size: 4rem;
+  width: 90%;
+  margin: auto;
+  max-width: 750px;
+  font-weight: 600;
+  text-align: center;
+}
+.game_cont {
+  text-align: center;
+  font-size: 1.3rem;
+  word-spacing: 2px;
+  font-weight: 500;
+  margin-top: 30px;
+  width: 90%;
+  margin: 60px auto;
+  max-width: 750px;
+  
+}
